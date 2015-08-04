@@ -1,0 +1,4 @@
+NET "clk" LOC = "C9" | IOSTANDARD = LVCMOS33 ;											//50MHz clock
+NET "scl" LOC = "A6" | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8 ;		//io5
+NET "sda" LOC = "B6" | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8 ; 		//io6
+NET "led" LOC = "F9" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;			//led7
